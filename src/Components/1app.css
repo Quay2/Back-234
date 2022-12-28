@@ -1,0 +1,72 @@
+
+
+.woola{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Work{
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+    background-repeat: no-repeat;
+
+
+}
+.workBlocks{
+    justify-content: center;
+}
+
+.btn{
+    border: #763CAC;
+    border: 1px solid #693B93;
+    transition: all ease-in-out 250ms;
+}
+.btn:hover{
+    border: #763CAC;
+    border: 1px solid #693B93;
+    background-color: #130428;
+}
+
+.Blocks{
+    background: linear-gradient(110.49deg, #130428 19.95%, #251043 67.64%, #38126D 107.08%, #261045 156.61%, #190634 183.21%);
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.macImg{
+    width: 40px;
+
+
+}
+.About{
+
+}
+
+
+.hove{
+    position: relative;
+    font-weight: 500;
+    transition:  0.25s ease-in-out;
+    
+
+}
+.hove:hover{
+    opacity: .7;
+
+}
+.hove::before{
+    content:'';
+    position: absolute;
+    background-color: #763CAC;
+    bottom:0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    transition: width 0.25s ease-in-out;
+}
+
+.hove:hover::before{
+    width: 100%;
+
+}
+
